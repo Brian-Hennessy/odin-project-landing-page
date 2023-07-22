@@ -97,6 +97,7 @@ section,
     padding: 8px 32px;
     border-radius: 6px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .button.primary {
@@ -105,6 +106,7 @@ section,
 }
 
 .button.secondary {
+    color: #FFFFFF;
     border: 1px solid;
 }
 
