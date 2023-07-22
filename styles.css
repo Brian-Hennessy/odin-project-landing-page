@@ -22,12 +22,13 @@ h1 {
 
 img {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 6px;
     border: rgba(226, 232, 240, 0.2) 1px solid;
 }
 
 .container {
+    display: block;
     margin: auto;
     width: 100%;
     max-width: 1200px;
@@ -62,7 +63,7 @@ img {
     padding: 64px 0;
     display: flex;
     align-items: center;
-    gap: 64px;
+    gap: 96px;
 }
 
 .hero-content-wrapper {
@@ -85,4 +86,28 @@ img {
 .button.primary {
     color: #FFFFFF;
     background-color: #3882F6;
+}
+
+.features-wrapper {
+    padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.features-content {
+    display: flex;
+    gap: 32px;
+    text-align: center;
+}
+
+.feature {
+
+}
+
+.feature img{
+    border: #3882F6 3px solid;
+    height: 200px;
+    margin-bottom: 8px;
 }
