@@ -35,7 +35,7 @@ img {
 
 footer {
     text-align: center;
-    padding: 16px;
+    padding: 24px;
 }
 
 section,
@@ -105,8 +105,7 @@ section,
 }
 
 .button.secondary {
-    color: #3882F6;
-    border: #3882F6 1px solid;
+    border: 1px solid;
 }
 
 .features-wrapper {
@@ -160,4 +159,24 @@ section,
 .quote-text,
 .cite {
     max-width: 800px;;
+}
+
+.cta-wrapper {
+    color: #FFFFFF;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 96px 0;
+    padding: 64px 32px;
+    border-radius: 6px;
+}
+
+.cta-heading {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.footer {
+    padding: 24px;
 }
