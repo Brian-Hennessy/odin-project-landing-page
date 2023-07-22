@@ -33,6 +33,11 @@ img {
     border: rgba(226, 232, 240, 0.2) 1px solid;
 }
 
+footer {
+    text-align: center;
+    padding: 16px;
+}
+
 section,
 .section {
     padding: 0 20px;
@@ -99,6 +104,11 @@ section,
     background-color: #3882F6;
 }
 
+.button.secondary {
+    color: #3882F6;
+    border: #3882F6 1px solid;
+}
+
 .features-wrapper {
     padding: 96px 0;
     display: flex;
@@ -121,4 +131,33 @@ section,
     border: #3882F6 3px solid;
     height: 200px;
     margin-bottom: 8px;
+}
+
+.quote {
+    padding: 96px 0;
+    background-color: #E5E7EB;
+}
+
+.quote-wrapper {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.cite {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.quote-text,
+.cite {
+    max-width: 800px;;
 }
